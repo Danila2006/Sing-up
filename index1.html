@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style1.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sing-up</title>
+</head>
+<body>
+    <div class="card">
+    <div class="container">
+        <p>Let's do this!</p>
+            
+                <form action="#" method="post">
+                    <div class="container1">
+            <div class="input-box">
+                <div>
+                    <span class="details">First Name</span>
+                </div>
+                <input type="text">
+            </div>
+            <div class="input-box">
+                <div>
+                    <span class="details">Last Name</span>
+                </div>
+                    <input type="text">
+            </div>
+            <div class="input-box">
+                <div>
+                    <span class="details">*Email</span>
+                </div>
+                <input type="email" required>
+            </div>
+            <div class="input-box">
+                <div>
+                <span class="details">*Phone Number</span>
+                </div>
+                <input type="tel" pattern="[+380] [0-9]{2} [0-9]{3}-[0-9]{2}-[0-9]{2}" placeholder="+380 00 000-00-00" required>
+            </div>
+            <div class="input-box">
+                <div>
+                    <span class="details">*Password</span>
+                </div>
+                <input type="text" minlength="4" maxlength="8" required>
+            </div>
+            <div class="input-box">
+                <div>
+                    <span class="details">*Confirm Password</span>
+                </div>
+                <input type="text" minlength="4" maxlength="8" required>
+            </div>
+        </div>
+        <button type="submit">Create Account</button>
+    </form>
+    </div>
+</div>
+</body>
+</html>
